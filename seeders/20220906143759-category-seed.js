@@ -1,5 +1,5 @@
-"use strict";
-const { categories } = require("../../../../db.json");
+'use strict';
+const { categories } = require('../db.json');
 
 module.exports = {
   async up(queryInterface, Sequelize) {
@@ -18,7 +18,7 @@ module.exports = {
       el.createdAt = new Date();
       el.updatedAt = new Date();
     });
-    await queryInterface.bulkInsert("Categories", categoriesSeed, {});
+    await queryInterface.bulkInsert('Categories', categoriesSeed, {});
   },
 
   async down(queryInterface, Sequelize) {
@@ -28,6 +28,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    await queryInterface.bulkDelete("Categories", null, {});
+    await queryInterface.bulkDelete('Categories', null, {});
   },
 };
