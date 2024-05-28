@@ -1,9 +1,10 @@
 {
   "development": {
     "username": "postgres",
-    "password": "postgres",
-    "database": "TemanMain-app",
-    "host": "127.0.0.1",
+    "password": "GhUgUjpIwRyvvDtBtVQQAmhENSThIKWn",
+    "database": "railway",
+    "host": "viaduct.proxy.rlwy.net",
+    "port":"37864",
     "dialect": "postgres"
   },
   "test": {
@@ -15,10 +16,10 @@
   },
   "production": {
     "username": "postgres",
-    "password": "jBL0mRrOTRR93cfsFtvS",
+    "password": "GhUgUjpIwRyvvDtBtVQQAmhENSThIKWn",
     "database": "railway",
-    "host": "containers-us-west-189.railway.app",
-    "port":"7667",
+    "host": "viaduct.proxy.rlwy.net",
+    "port":"37864",
     "dialect": "postgres"
   }
 }
