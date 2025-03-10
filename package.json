@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --forceExit --coverage",
-    "start": "npx nodemon app.js",
+    "start": "node app.js",
     "migrate": "npx sequelize db:migrate",
     "seed": "npx sequelize db:seed:all"
   },
