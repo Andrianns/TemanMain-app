@@ -3,14 +3,14 @@
     "buildCommand": "npm run migrate",
     "builds": [
       {
-        "src": "api/app.js",
+        "src": "app.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "api/app.js"
+        "dest": "app.js"
       }
     ]
   }
